@@ -441,7 +441,7 @@ namespace testBot
                                 {
                                     Title = $" {accountName[i]}",
                                     Subtitle = $"    {accountNum[i]}", //Account Number
-                                    Text = $"Available Balance: ${accountBalance[i]}",
+                                    Text = $"Available Balance: ${Math.Round(accountBalance[i],2)}",
                                     Images = cardImages,
                                 };
                                 Attachment plAttachment = plCard.ToAttachment();
@@ -493,7 +493,7 @@ namespace testBot
                         replyToConversation.Attachments = new List<Attachment>();
 
                         List<CardImage> cardImages = new List<CardImage>();
-                        cardImages.Add(new CardImage(url: "https://cdn2.iconfinder.com/data/icons/ios-7-style-metro-ui-icons/512/MetroUI_iCloud.png"));
+                        cardImages.Add(new CardImage(url: "http://www.freeiconspng.com/uploads/bank-icon-9.png"));
 
                         List<CardAction> cardButtons = new List<CardAction>();
                         CardAction plButton = new CardAction()
