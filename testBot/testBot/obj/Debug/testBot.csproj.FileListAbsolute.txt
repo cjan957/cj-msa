@@ -53,3 +53,58 @@ c:\users\tae\documents\visual studio 2015\Projects\testBot\testBot\bin\zh-hans\M
 c:\users\tae\documents\visual studio 2015\Projects\testBot\testBot\obj\Debug\Bot Application1.dll
 c:\users\tae\documents\visual studio 2015\Projects\testBot\testBot\obj\Debug\Bot Application1.pdb
 C:\Users\Tae\Documents\Visual Studio 2015\Projects\testBot\testBot\bin\Microsoft.Cognitive.LUIS.dll
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\Bot Application1.dll.config
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\Bot Application1.dll
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\Bot Application1.pdb
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\Autofac.dll
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\Chronic.dll
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\Microsoft.Bot.Builder.dll
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\Microsoft.Bot.Connector.dll
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\Microsoft.Cognitive.LUIS.dll
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\Microsoft.ProjectOxford.Common.dll
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\Microsoft.ProjectOxford.Emotion.dll
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\Microsoft.WindowsAzure.Mobile.dll
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\Microsoft.WindowsAzure.Mobile.Ext.dll
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\Newtonsoft.Json.dll
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\Plugin.Media.Abstractions.dll
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\Plugin.Media.dll
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\System.Net.Http.Extensions.dll
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\System.Net.Http.Formatting.dll
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\System.Net.Http.Primitives.dll
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\System.Web.Http.dll
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\System.Web.Http.WebHost.dll
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\Autofac.xml
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\Microsoft.Bot.Builder.xml
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\Microsoft.Bot.Connector.xml
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\Microsoft.WindowsAzure.Mobile.xml
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\Microsoft.WindowsAzure.Mobile.Ext.xml
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\Newtonsoft.Json.xml
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\Plugin.Media.xml
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\Plugin.Media.Abstractions.xml
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\System.IdentityModel.Tokens.Jwt.pdb
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\System.Net.Http.Extensions.xml
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\System.Net.Http.Formatting.xml
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\System.Net.Http.Primitives.xml
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\System.Web.Http.xml
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\System.Web.Http.WebHost.xml
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\ar\Microsoft.Bot.Builder.resources.dll
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\en\Microsoft.Bot.Builder.resources.dll
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\es\Microsoft.Bot.Builder.resources.dll
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\fa\Microsoft.Bot.Builder.resources.dll
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\fr\Microsoft.Bot.Builder.resources.dll
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\ja\Microsoft.Bot.Builder.resources.dll
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\ru\Microsoft.Bot.Builder.resources.dll
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\obj\Debug\testBot.csproj.App.config
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\obj\Debug\testBot.csprojResolveAssemblyReference.cache
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\obj\Debug\Bot Application1.dll
+C:\Users\Tae\Desktop\github\cj-msa\testBot\testBot\obj\Debug\Bot Application1.pdb
