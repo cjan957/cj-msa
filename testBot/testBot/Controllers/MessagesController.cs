@@ -519,7 +519,7 @@ namespace testBot
                         return Request.CreateResponse(HttpStatusCode.OK);
                     }
 
-                    else if(userMessage.ToLower().Contains("forget me"))
+                    else if(userMessage.ToLower().Contains("forget"))
                     {
                         endOutput = "User data cleared";
                         await stateClient.BotState.DeleteStateForUserAsync(activity.ChannelId, activity.From.Id);
