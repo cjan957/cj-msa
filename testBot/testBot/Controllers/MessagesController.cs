@@ -487,31 +487,36 @@ namespace testBot
 
                     else if (userMessage.ToLower().Contains("contoso"))
                     {
-                        Activity replyToConversation = message.CreateReply("Should go to conversation, with a hero card");
-                        replyToConversation.Recipient = message.From;
+                        Activity replyToConversation = activity.CreateReply("MSA information");
+                        replyToConversation.Recipient = activity.From;
                         replyToConversation.Type = "message";
                         replyToConversation.Attachments = new List<Attachment>();
+
                         List<CardImage> cardImages = new List<CardImage>();
-                        cardImages.Add(new CardImage(url: "https://<ImageUrl1>"));
-                        cardImages.Add(new CardImage(url: "https://<ImageUrl2>"));
+                        cardImages.Add(new CardImage(url: "https://cdn2.iconfinder.com/data/icons/ios-7-style-metro-ui-icons/512/MetroUI_iCloud.png"));
+
                         List<CardAction> cardButtons = new List<CardAction>();
                         CardAction plButton = new CardAction()
                         {
-                            Value = "https://en.wikipedia.org/wiki/Pig_Latin",
+                            Value = "http://msa.ms",
                             Type = "openUrl",
-                            Title = "WikiPedia Page"
+                            Title = "MSA Website"
                         };
                         cardButtons.Add(plButton);
-                        HeroCard plCard = new HeroCard()
+
+                        ThumbnailCard plCard = new ThumbnailCard()
                         {
-                            Title = "I'm a hero card",
-                            Subtitle = "Pig Latin Wikipedia Page",
+                            Title = "Visit MSA",
+                            Subtitle = "The MSA Website is here",
                             Images = cardImages,
                             Buttons = cardButtons
                         };
+
                         Attachment plAttachment = plCard.ToAttachment();
                         replyToConversation.Attachments.Add(plAttachment);
-                        var reply = await connector.Conversations.SendToConversationAsync(replyToConversation);
+                        await connector.Conversations.SendToConversationAsync(replyToConversation);
+
+                        return Request.CreateResponse(HttpStatusCode.OK);
                     }
 
                     else
