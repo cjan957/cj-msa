@@ -498,7 +498,7 @@ namespace testBot
                         List<CardAction> cardButtons = new List<CardAction>();
                         CardAction plButton = new CardAction()
                         {
-                            Value = "http://asb.co.nz",
+                            Value = "http://contoso.com",
                             Type = "openUrl",
                             Title = "Contoso Website"
                         };
