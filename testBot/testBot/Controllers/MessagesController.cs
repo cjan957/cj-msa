@@ -378,6 +378,11 @@ namespace testBot
                             }
                             isText = true;
                         }
+                        else
+                        {
+                            endOutput += "Are you trying to obtain an exchange rate? If so, try again with a slighly different phase";
+                            isText = true;
+                        }
 
                     }
 
