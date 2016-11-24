@@ -487,7 +487,7 @@ namespace testBot
 
                     else if (userMessage.ToLower().Contains("contoso"))
                     {
-                        Activity replyToConversation = activity.CreateReply("MSA information");
+                        Activity replyToConversation = activity.CreateReply("Here's Contoso Bank Info");
                         replyToConversation.Recipient = activity.From;
                         replyToConversation.Type = "message";
                         replyToConversation.Attachments = new List<Attachment>();
@@ -498,16 +498,16 @@ namespace testBot
                         List<CardAction> cardButtons = new List<CardAction>();
                         CardAction plButton = new CardAction()
                         {
-                            Value = "http://msa.ms",
+                            Value = "http://asb.co.nz",
                             Type = "openUrl",
-                            Title = "MSA Website"
+                            Title = "Contoso Website"
                         };
                         cardButtons.Add(plButton);
 
                         ThumbnailCard plCard = new ThumbnailCard()
                         {
-                            Title = "Visit MSA",
-                            Subtitle = "The MSA Website is here",
+                            Title = "Contoso",
+                            Subtitle = "Call Centre 0800 888 5555",
                             Images = cardImages,
                             Buttons = cardButtons
                         };
