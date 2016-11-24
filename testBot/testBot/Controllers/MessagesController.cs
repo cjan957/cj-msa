@@ -523,6 +523,7 @@ namespace testBot
                     {
                         endOutput = "User data cleared";
                         await stateClient.BotState.DeleteStateForUserAsync(activity.ChannelId, activity.From.Id);
+                        isText = true;
                     }
 
                     else
