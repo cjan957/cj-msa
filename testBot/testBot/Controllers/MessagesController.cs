@@ -493,7 +493,7 @@ namespace testBot
                         replyToConversation.Attachments = new List<Attachment>();
 
                         List<CardImage> cardImages = new List<CardImage>();
-                        cardImages.Add(new CardImage(url: "http://www.freeiconspng.com/uploads/bank-icon-9.png"));
+                        cardImages.Add(new CardImage(url: "https://cdn2.f-cdn.com/contestentries/699966/18283068/57a8de35ca18f_thumb900.jpg"));
 
                         List<CardAction> cardButtons = new List<CardAction>();
                         CardAction plButton = new CardAction()
