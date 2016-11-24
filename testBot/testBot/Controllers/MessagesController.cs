@@ -485,6 +485,35 @@ namespace testBot
                         isText = true;
                     }
 
+                    else if (userMessage.ToLower().Contains("contoso"))
+                    {
+                        Activity replyToConversation = message.CreateReply("Should go to conversation, with a hero card");
+                        replyToConversation.Recipient = message.From;
+                        replyToConversation.Type = "message";
+                        replyToConversation.Attachments = new List<Attachment>();
+                        List<CardImage> cardImages = new List<CardImage>();
+                        cardImages.Add(new CardImage(url: "https://<ImageUrl1>"));
+                        cardImages.Add(new CardImage(url: "https://<ImageUrl2>"));
+                        List<CardAction> cardButtons = new List<CardAction>();
+                        CardAction plButton = new CardAction()
+                        {
+                            Value = "https://en.wikipedia.org/wiki/Pig_Latin",
+                            Type = "openUrl",
+                            Title = "WikiPedia Page"
+                        };
+                        cardButtons.Add(plButton);
+                        HeroCard plCard = new HeroCard()
+                        {
+                            Title = "I'm a hero card",
+                            Subtitle = "Pig Latin Wikipedia Page",
+                            Images = cardImages,
+                            Buttons = cardButtons
+                        };
+                        Attachment plAttachment = plCard.ToAttachment();
+                        replyToConversation.Attachments.Add(plAttachment);
+                        var reply = await connector.Conversations.SendToConversationAsync(replyToConversation);
+                    }
+
                     else
                     {
                         endOutput += "I'm not sure I understand. Type 'Help' for more information";
