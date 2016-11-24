@@ -41,9 +41,6 @@ namespace testBot
                 string endOutput = "";
                 bool isText = false;
 
-
-
-
                 if (userData.GetProperty<bool>("launched"))
                 {
                     if (userData.GetProperty<bool>("transferNeedsConfirmation"))
@@ -72,7 +69,7 @@ namespace testBot
                                         await AzureManager.AzureManagerInstance.UpdateTimeline("1", t.acc1Bal - amountToTransfer, "cheque");
                                         await AzureManager.AzureManagerInstance.UpdateTimeline("1", t.acc2Bal + amountToTransfer, "saving");
                                         endOutput += "Transcation is complete";
-                                        isText = true;
+                                        isText = true;                       
                                     }
                                 }
                             }
